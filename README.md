@@ -6,6 +6,12 @@
 <img src="https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/qrcode.jpg" alt="示例" width="322" height="367" />
 
 ###### 作者：摩擦摩擦  
+
+---
+功能导图  
+<img src="https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/app.png" alt="示例" width="400" height="890" />
+<img src="https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/server.png" alt="示例" width="400" height="890" />
+
 ---
 功能截图  
 <img src="https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/1.jpg" alt="示例" width="400" height="890" />
