@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "人员信息",
+  "usingComponents": {
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-popup-dialog": "/uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog"
+  }
+}

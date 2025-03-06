@@ -1,0 +1,121 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/club/club",
+    "pages/active/active",
+    "pages/me/me",
+    "pages/me/mynotice/mynotice",
+    "pages/me/userinfo",
+    "pages/club/submitSuccess",
+    "pages/club/car-page-info",
+    "pages/club/room-page-info",
+    "pages/club/ticket-page-info",
+    "pages/club/car-page-add",
+    "pages/club/room-page-add",
+    "pages/club/ticket-page-add",
+    "pages/me/login-page",
+    "pages/active/active_info",
+    "pages/active/active_Order",
+    "pages/active/pay",
+    "pages/active/paySuccess",
+    "pages/active/orderList",
+    "pages/active/orderListInfo",
+    "pages/snowfield/fieldList",
+    "pages/snowfield/fieldInfo",
+    "pages/me/about",
+    "pages/ticket/ticketIndex",
+    "pages/ticket/ticketList",
+    "pages/ticket/ticketInfo",
+    "pages/ticket/ticketOrder",
+    "pages/ticket/personSelect",
+    "pages/ticket/personAdd",
+    "pages/ticket/orderList",
+    "pages/ticket/orderListInfo",
+    "pages/me/orderCenter",
+    "pages/teacher/orderList",
+    "pages/teacher/teacherOrder",
+    "pages/teacher/teacherVideo",
+    "pages/teacher/orderListInfo",
+    "pages/teacher/teacherIndex",
+    "pages/teacher/teacherAdd",
+    "pages/teacher/teacherAddsuccess",
+    "pages/me/personManager/personSelect",
+    "pages/me/personManager/personAdd"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/article",
+      "pages": [
+        "strategyIndex",
+        "articleInfo",
+        "eat-drink-Index",
+        "reco-Index"
+      ]
+    },
+    {
+      "root": "pages/me/myRelease",
+      "pages": [
+        "r-club",
+        "r-car-page-info",
+        "r-room-page-info",
+        "r-ticket-page-info",
+        "r-car-page-add",
+        "r-room-page-add",
+        "r-ticket-page-add",
+        "r-submitSuccess"
+      ]
+    },
+    {
+      "root": "pages/me/newFlash",
+      "pages": [
+        "new-flash-ctrl"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "丝滑雪迹",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#0a2576",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "/static/tabbar/home.png",
+        "selectedIconPath": "/static/tabbar/home_ac.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/club/club",
+        "iconPath": "/static/tabbar/club.png",
+        "selectedIconPath": "/static/tabbar/club_ac.png",
+        "text": "圈子"
+      },
+      {
+        "pagePath": "pages/active/active",
+        "iconPath": "/static/tabbar/active.png",
+        "selectedIconPath": "/static/tabbar/active_ac.png",
+        "text": "活动"
+      },
+      {
+        "pagePath": "pages/ticket/ticketIndex",
+        "iconPath": "/static/tabbar/ticket.png",
+        "selectedIconPath": "/static/tabbar/ticket_ac.png",
+        "text": "雪票"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "/static/tabbar/me.png",
+        "selectedIconPath": "/static/tabbar/me_ac.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

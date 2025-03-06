@@ -1,0 +1,399 @@
+{
+	"pages": [{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/club/club",
+			"style": {
+				"navigationBarTitleText": "圈子",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/active/active",
+			"style": {
+				"navigationBarTitleText": "活动",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/me/mynotice/mynotice",
+			"style": {
+				"navigationBarTitleText": "我的通知公告",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/me/userinfo",
+			"style": {
+				"navigationBarTitleText": "用户信息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/club/submitSuccess",
+			"style": {
+				"navigationBarTitleText": "发布成功"
+			}
+		},
+		{
+			"path": "pages/club/car-page-info",
+			"style": {
+				"navigationBarTitleText": "拼车详情"
+			}
+		},
+		{
+			"path": "pages/club/room-page-info",
+			"style": {
+				"navigationBarTitleText": "拼房详情"
+			}
+		},
+		{
+			"path": "pages/club/ticket-page-info",
+			"style": {
+				"navigationBarTitleText": "雪票详情"
+			}
+		},
+		{
+			"path": "pages/club/car-page-add",
+			"style": {
+				"navigationBarTitleText": "发布拼车"
+			}
+		},
+		{
+			"path": "pages/club/room-page-add",
+			"style": {
+				"navigationBarTitleText": "发布拼房"
+			}
+		},
+		{
+			"path": "pages/club/ticket-page-add",
+			"style": {
+				"navigationBarTitleText": "发布雪票"
+			}
+		},
+		{
+			"path": "pages/me/login-page",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/active/active_info",
+			"style": {
+				"navigationBarTitleText": "活动详情"
+			}
+		},
+		{
+			"path": "pages/active/active_Order",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/active/pay",
+			"style": {
+				"navigationBarTitleText": "支付订单"
+			}
+		},
+		{
+			"path": "pages/active/paySuccess",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		},
+		{
+			"path": "pages/active/orderList",
+			"style": {
+				"navigationBarTitleText": "活动订单"
+			}
+		},
+		{
+			"path": "pages/active/orderListInfo",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/snowfield/fieldList",
+			"style": {
+				"navigationBarTitleText": "雪场列表"
+			}
+		},
+		{
+			"path": "pages/snowfield/fieldInfo",
+			"style": {
+				"navigationBarTitleText": "雪场详情"
+			}
+		},
+		{
+			"path": "pages/me/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/ticket/ticketIndex",
+			"style": {
+				"navigationBarTitleText": "雪票"
+			}
+		},
+		{
+			"path": "pages/ticket/ticketList",
+			"style": {
+				"navigationBarTitleText": "雪票列表"
+			}
+		},
+		{
+			"path": "pages/ticket/ticketInfo",
+			"style": {
+				"navigationBarTitleText": "雪票详情"
+			}
+		},
+		{
+			"path": "pages/ticket/ticketOrder",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+			"path": "pages/ticket/personSelect",
+			"style": {
+				"navigationBarTitleText": "人员信息"
+			}
+		},
+		{
+			"path": "pages/ticket/personAdd",
+			"style": {
+				"navigationBarTitleText": "人员新增"
+			}
+		},
+		{
+			"path": "pages/ticket/orderList",
+			"style": {
+				"navigationBarTitleText": "雪票订单"
+			}
+		},
+		{
+			"path": "pages/ticket/orderListInfo",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/me/orderCenter",
+			"style": {
+				"navigationBarTitleText": "所有订单"
+			}
+		},
+		{
+			"path": "pages/teacher/orderList",
+			"style": {
+				"navigationBarTitleText": "教练订单"
+			}
+		},
+		{
+			"path": "pages/teacher/teacherOrder",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+			"path": "pages/teacher/teacherVideo",
+			"style": {
+				"navigationBarTitleText": "教学视频"
+			}
+		},
+		{
+			"path": "pages/teacher/orderListInfo",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/teacher/teacherIndex",
+			"style": {
+				"navigationBarTitleText": "教练",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/teacher/teacherAdd",
+			"style": {
+				"navigationBarTitleText": "教练入驻"
+			}
+		},
+		{
+			"path": "pages/teacher/teacherAddsuccess",
+			"style": {
+				"navigationBarTitleText": "入驻信息已提交"
+			}
+		},
+		{
+			"path": "pages/me/personManager/personSelect",
+			"style": {
+				"navigationBarTitleText": "联系人信息"
+			}
+		},
+		{
+			"path": "pages/me/personManager/personAdd",
+			"style": {
+				"navigationBarTitleText": "新增联系人"
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "pages/article",
+			"pages": [{
+					"path": "strategyIndex",
+					"style": {
+						"navigationBarTitleText": "攻略"
+					}
+				},
+				{
+					"path": "articleInfo",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "eat-drink-Index",
+					"style": {
+						"navigationBarTitleText": "吃喝玩乐"
+					}
+				},
+				{
+					"path": "reco-Index",
+					"style": {
+						"navigationBarTitleText": "推荐"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/me/myRelease",
+			"pages": [{
+					"path": "r-club",
+					"style": {
+						"navigationBarTitleText": "我的发布"
+					}
+				},
+				{
+					"path": "r-car-page-info",
+					"style": {
+						"navigationBarTitleText": "拼车详情"
+					}
+				},
+				{
+					"path": "r-room-page-info",
+					"style": {
+						"navigationBarTitleText": "拼房详情"
+					}
+				},
+				{
+					"path": "r-ticket-page-info",
+					"style": {
+						"navigationBarTitleText": "雪票详情"
+					}
+				},
+				{
+					"path": "r-car-page-add",
+					"style": {
+						"navigationBarTitleText": "发布拼车"
+					}
+				},
+				{
+					"path": "r-room-page-add",
+					"style": {
+						"navigationBarTitleText": "发布拼房"
+					}
+				},
+				{
+					"path": "r-ticket-page-add",
+					"style": {
+						"navigationBarTitleText": "发布雪票"
+					}
+				},
+				{
+					"path": "r-submitSuccess",
+					"style": {
+						"navigationBarTitleText": "发布成功"
+					}
+				}
+			]
+		}, {
+			"root": "pages/me/newFlash",
+			"pages": [{
+				"path": "new-flash-ctrl",
+				"style": {
+					"navigationBarTitleText": "快讯审核"
+				}
+			}]
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#0a2576",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"iconPath": "/static/tabbar/home.png",
+				"selectedIconPath": "/static/tabbar/home_ac.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/club/club",
+				"iconPath": "/static/tabbar/club.png",
+				"selectedIconPath": "/static/tabbar/club_ac.png",
+				"text": "圈子"
+			},
+			{
+				"pagePath": "pages/active/active",
+				"iconPath": "/static/tabbar/active.png",
+				"selectedIconPath": "/static/tabbar/active_ac.png",
+				"text": "活动"
+			},
+			{
+				"pagePath": "pages/ticket/ticketIndex",
+				"iconPath": "/static/tabbar/ticket.png",
+				"selectedIconPath": "/static/tabbar/ticket_ac.png",
+				"text": "雪票"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"iconPath": "/static/tabbar/me.png",
+				"selectedIconPath": "/static/tabbar/me_ac.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "丝滑雪迹",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition": {
+		//模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

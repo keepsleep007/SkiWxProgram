@@ -1,0 +1,47 @@
+
+.page-news.data-v-6c6a73a6 {
+	position: relative;
+	/* 确保子元素可以相对定位 */
+	background-color: #efeff4;
+}
+.scroll-container.data-v-6c6a73a6 {
+	height: calc(100vh - 78px);
+	/* 减去 filterBar 的高度 */
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	/* 优化滚动性能 */
+}
+.uni-list-item.data-v-6c6a73a6 {
+	border-bottom: 1px solid #ebebeb;
+}
+.media-item.data-v-6c6a73a6 {
+	position: relative;
+	flex: 1;
+	flex-direction: column;
+}
+.item-view.data-v-6c6a73a6 {
+	margin-bottom: 2px;
+}
+.info-title.data-v-6c6a73a6 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.info-text.data-v-6c6a73a6 {
+	font-size: 14px;
+}
+.bottom-text.data-v-6c6a73a6 {
+	color: #999999;
+	font-size: 12px;
+}
+.loading-more.data-v-6c6a73a6 {
+	align-items: center;
+	justify-content: center;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	text-align: center;
+}
+.loading-more-text.data-v-6c6a73a6 {
+	font-size: 28rpx;
+	color: #999;
+}
+

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的发布",
+  "usingComponents": {
+    "car-page": "/pages/me/myRelease/r-car-page",
+    "room-page": "/pages/me/myRelease/r-room-page",
+    "ticket-page": "/pages/me/myRelease/r-ticket-page"
+  }
+}

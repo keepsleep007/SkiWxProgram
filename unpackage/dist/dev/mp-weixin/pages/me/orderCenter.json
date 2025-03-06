@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "所有订单",
+  "usingComponents": {
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-popup-dialog": "/uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+    "ticket-order-list": "/pages/ticket/orderList",
+    "active-order-list": "/pages/active/orderList",
+    "teacher-order-list": "/pages/teacher/orderList"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "活动详情",
+  "usingComponents": {
+    "uni-calendar": "/uni_modules/uni-calendar/components/uni-calendar/uni-calendar"
+  }
+}

@@ -1,0 +1,15 @@
+
+.container.data-v-66afdb4b {
+	width: 750rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.bg-wrapper.data-v-66afdb4b {
+	background-color: #f6f8fb;
+	width: 750rpx;
+	height: 35px;
+	display: flex;
+	align-items: center;
+}
+

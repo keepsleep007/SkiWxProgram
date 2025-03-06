@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "圈子",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "fab-button": "/components/fab-button/fab-button",
+    "news-flash-page": "/pages/club/news-flash-page",
+    "car-page": "/pages/club/car-page",
+    "room-page": "/pages/club/room-page",
+    "ticket-page": "/pages/club/ticket-page",
+    "fab_button": "/components/fab-button/fab-button"
+  }
+}

@@ -1,0 +1,102 @@
+
+.page-news.data-v-7d99af36 {
+	position: relative;
+	/* 确保子元素可以相对定位 */
+	background-color: #efeff4;
+}
+.overlay-text.data-v-7d99af36 {
+	position: absolute;
+	/* 绝对定位，使其可以覆盖在其他元素之上 */
+	top: 50px;
+	/* 根据需要调整位置，这里假设 filterBar 的高度为 50px */
+	left: 0;
+	right: 0;
+	text-align: center;
+	/* 居中显示 */
+}
+.scroll-container.data-v-7d99af36 {
+	height: calc(100vh - 78px);
+	/* 减去 filterBar 的高度 */
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	/* 优化滚动性能 */
+}
+.uni-list-item.data-v-7d99af36 {
+	border-bottom: 1px solid #ebebeb;
+}
+.media-item.data-v-7d99af36 {
+	position: relative;
+	flex: 1;
+	flex-direction: column;
+}
+.title-view.data-v-7d99af36 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 5px;
+}
+.avatraImg.data-v-7d99af36 {
+	margin-right: 10px;
+}
+.nickName.data-v-7d99af36 {
+	text-align: center;
+	/* 文字水平居中 */
+	line-height: normal;
+	/* 行高设置为正常，或者根据需要设置一个具体的值 */
+	margin-left: 10px;
+	color: #999999;
+}
+.item-view.data-v-7d99af36 {
+	margin-bottom: 2px;
+}
+.info-title.data-v-7d99af36 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.info-text.data-v-7d99af36 {
+	font-size: 14px;
+}
+.price-text.data-v-7d99af36 {
+	font-weight: bold;
+	color: #ff5a5f;
+	margin-right: 10px;
+}
+.bottom-text.data-v-7d99af36 {
+	color: #999999;
+	font-size: 12px;
+}
+.type-tag.data-v-7d99af36 {
+	margin-left: auto;
+	/* 设置圆角的半径 */
+	border-radius: 5px;
+	/* 添加内边距 */
+	padding: 3px;
+	/* 设置文本颜色 */
+	color: #000000;
+}
+.edit-btn.data-v-7d99af36 {
+	margin-left: 130px;
+	/* 设置圆角的半径 */
+	border-radius: 5px;
+	/* 添加内边距 */
+	padding: 3px;
+}
+.del-btn.data-v-7d99af36 {
+	margin-left: 10px;
+	/* 设置圆角的半径 */
+	border-radius: 5px;
+	/* 添加内边距 */
+	padding: 3px;
+}
+.loading-more.data-v-7d99af36 {
+	align-items: center;
+	justify-content: center;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	text-align: center;
+}
+.loading-more-text.data-v-7d99af36 {
+	font-size: 28rpx;
+	color: #999;
+}
+

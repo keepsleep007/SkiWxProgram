@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "雪票详情",
+  "usingComponents": {
+    "uni-tag": "/uni_modules/uni-tag/components/uni-tag/uni-tag",
+    "uni-calendar": "/uni_modules/uni-calendar/components/uni-calendar/uni-calendar"
+  }
+}

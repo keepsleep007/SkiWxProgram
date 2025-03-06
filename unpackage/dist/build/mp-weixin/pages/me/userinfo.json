@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "用户信息",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar",
+    "u-form": "/uni_modules/uview-ui/components/u-form/u-form",
+    "u-form-item": "/uni_modules/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/uni_modules/uview-ui/components/u-input/u-input",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar",
+    "filter-bar": "/pages/me/myRelease/r-room-page_filter_bar"
+  }
+}

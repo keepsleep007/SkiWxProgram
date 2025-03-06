@@ -1,0 +1,328 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page {
+  background: #efeff4;
+}
+/* 标题简介 */
+.title-view {
+  background: #fff;
+  padding: 20rpx 30rpx;
+}
+.title {
+  font-size: 32rpx;
+  color: #303133;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.date-view-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.date-header {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.date-cards {
+  display: flex;
+}
+.date-card {
+  display: flex;
+  flex-direction: column;
+  background: #efeff4;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+.more-dates {
+  margin-right: 0;
+}
+.date,
+.weekday {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+/* 商品列表滚动视图样式 */
+.product-list-scroll-view {
+  height: calc(100vh - 240px);
+  /* 减去头部的高度 */
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  /* padding: 10px; */
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #efeff4;
+}
+/* 商品条目样式 */
+.product-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  /* 根据需要设置间距 */
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+}
+/* 商品图片样式 */
+.product-image {
+  width: 200rpx;
+  /* 或者其他合适的宽度 */
+  height: 200rpx;
+  /* 或者其他合适的高度 */
+  margin-right: 10px;
+  /* 图片与商品信息的间距 */
+  border-radius: 10px;
+}
+/* 商品信息样式 */
+.product-info {
+  flex-grow: 1;
+  /* 让.product-info填充剩余的空间 */
+  height: 100px;
+}
+/* 商品名称样式 */
+.product-title {
+  width: 460rpx;
+  font-size: 16px;
+  /* 或者其他合适的字体大小 */
+  font-weight: bold;
+  /* 标题可以加粗 */
+}
+/* 商品标签样式 */
+.product-tags {
+  display: flex;
+  /* 使用flexbox布局 */
+  flex-wrap: wrap;
+  /* 允许换行（但在这个场景下我们实际上不希望换行，所以后面会处理） */
+  margin-top: 5px;
+  /* 与商品名称的间距 */
+}
+/* 单个标签的容器样式，用于控制标签之间的间距 */
+.tag-container {
+  margin-right: 5px;
+  /* 标签之间的间距 */
+}
+.tag-text {
+  background-color: #f0f0f0;
+  /* 背景色 */
+  padding: 2px 5px;
+  /* 内边距 */
+  margin-right: 5px;
+  /* 标签之间的间距 */
+  border-radius: 3px;
+  /* 圆角 */
+}
+/* 价格区域样式 */
+.price-section {
+  position: relative;
+  /* 以便绝对定位价格 */
+  height: 60px;
+}
+/* 商品原价样式 */
+.original-price {
+  text-decoration: line-through;
+  /* 删除线 */
+  font-size: 12px;
+  /* 字体小一点 */
+  position: absolute;
+  /* 绝对定位 */
+  bottom: 30px;
+  /* 右下角 */
+  right: 0px;
+  /* 右下角 */
+  color: #999;
+  /* 灰色 */
+}
+/* 商品价格样式 */
+.discounted-price {
+  font-size: 16px;
+  /* 字体正常 */
+  position: absolute;
+  /* 绝对定位 */
+  bottom: 12px;
+  /* 右下角 */
+  right: 0px;
+  /* 右下角，但会覆盖原价，可能需要调整位置 */
+  color: red;
+  /* 红色 */
+}
+.product-stockNumber {
+  font-size: 12px;
+  /* 字体小一点 */
+  position: absolute;
+  /* 绝对定位 */
+  bottom: 0px;
+  /* 右下角 */
+  right: 0px;
+  /* 右下角 */
+  color: #999;
+  /* 灰色 */
+}
+/*  弹出层 */
+.popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+}
+.popup.show {
+  display: block;
+}
+.popup.show .mask {
+  -webkit-animation: showPopup 0.2s linear both;
+          animation: showPopup 0.2s linear both;
+}
+.popup.show .layer {
+  -webkit-animation: showLayer 0.2s linear both;
+          animation: showLayer 0.2s linear both;
+}
+.popup.hide .mask {
+  -webkit-animation: hidePopup 0.2s linear both;
+          animation: hidePopup 0.2s linear both;
+}
+.popup.hide .layer {
+  -webkit-animation: hideLayer 0.2s linear both;
+          animation: hideLayer 0.2s linear both;
+}
+.popup.none {
+  display: none;
+}
+.popup .mask {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.popup .layer {
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  width: 100%;
+  min-height: 40vh;
+  border-radius: 10rpx 10rpx 0 0;
+  background-color: #fff;
+}
+.popup .layer .btn {
+  height: 66rpx;
+  line-height: 66rpx;
+  border-radius: 100rpx;
+  background: #fa436a;
+  font-size: 30rpx;
+  color: #fff;
+  margin: 30rpx auto 20rpx;
+}
+@-webkit-keyframes showPopup {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+@keyframes showPopup {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+@-webkit-keyframes hidePopup {
+0% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+}
+}
+@keyframes hidePopup {
+0% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+}
+}
+@-webkit-keyframes showLayer {
+0% {
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%);
+}
+100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+}
+}
+@keyframes showLayer {
+0% {
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%);
+}
+100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+}
+}
+@-webkit-keyframes hideLayer {
+0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+100% {
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%);
+}
+}
+@keyframes hideLayer {
+0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+100% {
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%);
+}
+}
+

@@ -1,0 +1,1 @@
+<view class="content"><text class="success-icon yticon icon-xuanzhong2"></text><block wx:if="{{flag==1}}"><text class="tit">提交成功，请等待审核</text><text class="tit">状态查看：【我的-教练入驻】</text></block><block wx:if="{{flag==2}}"><text class="tit">信息变更成功</text></block><view class="btn-group"></view></view>

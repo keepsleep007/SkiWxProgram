@@ -1,0 +1,474 @@
+
+page {
+	background-color: #ffffff;
+}
+._s .uni-margin-wrap {
+	width: 690rpx;
+	width: 100%;
+}
+.swiper {
+	height: 300rpx;
+}
+.swiper-item {
+	display: block;
+	height: 300rpx;
+	line-height: 300rpx;
+	text-align: center;
+}
+.swiper-list {
+	margin-top: 40rpx;
+	margin-bottom: 0;
+}
+.uni-common-mt {
+	margin-top: 30rpx;
+	margin-left: 10px;
+	margin-right: 10px;
+	position: relative;
+	font-size: 17px;
+	font-weight: bold;
+	display: flex;
+	/* 设置为Flex容器 */
+	justify-content: space-between;
+	/* 使得子元素之间的空间被分配，分别靠向两端 */
+	align-items: center;
+	/* 确保子元素在垂直方向上居中对齐 */
+}
+.more-text {
+	font-size: 14px;
+	color: #8f8f94;
+}
+.info {
+	position: absolute;
+	right: 20rpx;
+}
+.uni-padding-wrap {
+	width: 550rpx;
+	padding: 0 100rpx;
+}
+.uni-bg-red {
+	background: red;
+}
+.uni-bg-green {
+	background: green;
+}
+.uni-bg-blue {
+	background: blue;
+}
+
+/* 宫格样式 */
+.uni-flex-grid {
+	display: flex;
+}
+.uni-row {
+	flex-direction: row;
+}
+.flex-item-grid-left {
+	position: relative;
+	margin-left: 10px;
+	margin-right: 5px;
+	margin-top: 10px;
+	width: 50%;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}
+.flex-item-grid-right {
+	position: relative;
+	margin-left: 5px;
+	margin-right: 10px;
+	margin-top: 10px;
+	width: 50%;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}
+.flex-item-grid-left image {
+	height: 100px;
+	width: 100%;
+	/* 设置圆角的大小 */
+	border-radius: 10px;
+	z-index: 1;
+}
+.flex-item-grid-right image {
+	height: 100px;
+	width: 100%;
+	/* 设置圆角的大小 */
+	border-radius: 10px;
+	z-index: 1;
+}
+.title-text {
+	position: absolute;
+	/* 将文字位置放在容器的垂直中间 */
+	top: 70%;
+	left: 5%;
+	/* 使文字水平垂直居中 */
+	-webkit-transform: translate(0%, -50%);
+	        transform: translate(0%, -50%);
+	/* 文字颜色 */
+	color: #FFFFFF;
+	/* 确保文字在图片上方 */
+	z-index: 2;
+	/* 文字大小 */
+	font-size: 17px;
+	font-weight: bold;
+	text-shadow:
+		1px 1px 2px rgba(0, 0, 0, 0.8),
+		-1px -1px 2px rgba(156, 156, 156, 0.8),
+		5px 0 10px rgba(64, 128, 180, 0.8),
+		-5px 0 10px rgba(64, 128, 180, 0.8);
+}
+.subtitles-text {
+	position: absolute;
+	/* 将文字位置放在容器的垂直中间 */
+	top: 90%;
+	left: 5%;
+	/* 使文字水平垂直居中 */
+	-webkit-transform: translate(0%, -50%);
+	        transform: translate(0%, -50%);
+	/* 文字颜色 */
+	color: #FFFFFF;
+	/* 确保文字在图片上方 */
+	z-index: 2;
+	/* 文字大小 */
+	font-size: 12px;
+	text-shadow:
+		1px 1px 2px rgba(0, 0, 0, 0.8),
+		-1px -1px 2px rgba(156, 156, 156, 0.8),
+		5px 0 10px rgba(64, 128, 180, 0.8),
+		-5px 0 10px rgba(64, 128, 180, 0.8);
+}
+
+/* 横滚区域样式 */
+.scroll-Y {
+	height: 300rpx;
+}
+.scroll-view_H {
+	white-space: nowrap;
+	width: 100%;
+}
+.scroll-view-item_H {
+	position: relative;
+	display: inline-block;
+	width: 200rpx;
+	height: 300rpx;
+	line-height: 50rpx;
+	text-align: center;
+	font-size: 36rpx;
+	margin-right: 10px;
+}
+.scroll-view-item-image {
+	width: 200rpx;
+	height: 200rpx;
+	text-align: center;
+	font-size: 36rpx;
+}
+.scroll-view-item-image image {
+	height: 200rpx;
+	width: 200rpx;
+	/* 设置圆角的大小 */
+	border-radius: 10px;
+}
+.scroll-view-item-title {
+	width: 200rpx;
+	height: 70rpx;
+	font-size: 12px;
+	line-height: 18px;
+	word-break: break-all;
+	white-space: normal;
+	text-align: left;
+}
+.scroll-view-item-price {
+	text-align: left;
+	font-size: 25rpx;
+	color: #ff5a5f;
+	font-weight: bold;
+}
+.scroll-view-item-tag {
+	position: absolute;
+	/* 使用绝对定位将标签固定在左上角 */
+	top: 0;
+	/* 距离父容器顶部 0px */
+	left: 0;
+	/* 距离父容器左侧 0px */
+	width: auto;
+	/* 根据内容自动调整宽度，或者设置一个具体的宽度 */
+	height: auto;
+	/* 根据内容自动调整高度，或者设置一个具体的高度 */
+	padding: 2px 5px;
+	/* 根据需要添加内边距，以确保文字不会紧贴边框 */
+	text-align: center;
+	/* 文字水平居中 */
+	line-height: normal;
+	/* 行高设置为正常，或者根据需要设置一个具体的值 */
+	background-color: #ff5a5f;
+	/* 背景颜色 */
+	border-radius: 5px;
+	/* 圆角 */
+	color: #FFFFFF;
+	/* 文字颜色 */
+	font-size: 11px;
+	/* 字体大小 */
+}
+
+/* 设置scroll-view的样式，确保内容横向滚动 */
+.scroll-view-teacher {
+	overflow-x: auto;
+	/* 允许横向滚动 */
+	overflow-y: hidden;
+	/* 隐藏纵向滚动条 */
+	overflow-x: auto;
+	/* 允许水平滚动 */
+	overflow-y: hidden;
+	/* 禁止垂直滚动 */
+	white-space: nowrap;
+	/* 防止内容换行 */
+	-webkit-overflow-scrolling: touch;
+	/* 在移动设备上启用平滑滚动 */
+	flex-direction: row;
+	/* 水平排列子元素 */
+}
+
+/* 设置teacher-item的样式，使用Flexbox布局 */
+.teacher-item {
+	display: inline-flex;
+	/* 使元素作为flex容器，并且在一行内显示 */
+	flex-direction: column;
+	/* 子元素垂直排列 */
+	align-items: center;
+	/* 子元素在交叉轴（水平方向）上居中 */
+	justify-content: center;
+	/* 子元素在主轴（垂直方向）上居中，但这里我们可能需要调整 */
+	width: 200rpx;
+	/* 设定宽度 */
+	height: 210px;
+	/* 设定高度，以适应垂直堆叠的内容 */
+	background-color: #efeff4;
+	/* 浅灰色背景色 */
+	margin-right: 10px;
+	/* 添加右侧外边距 */
+	box-sizing: border-box;
+	/* 包括内边距和边框在内计算元素的总宽度和高度 */
+	padding: 10px;
+	/* 添加内边距，使内容不紧贴边框 */
+	border-radius: 10px;
+	position: relative;
+	/* 必要的，以便定位内部的绝对元素 */
+}
+
+/* 设置teacher-item-avatar的样式 */
+.teacher-item-avatar {
+	width: 70px;
+	/* 头像宽度 */
+	height: 70px;
+	/* 头像高度 */
+	margin-bottom: 5px;
+	/* 与下方内容保持一定距离 */
+	margin-top: 10px;
+}
+
+/* 设置teacher-item-nickname的样式 */
+.teacher-item-nickname {
+	font-size: 11px;
+	/* 字体大小 */
+	color: #000000;
+	/* 字体颜色 */
+	margin-bottom: 5px;
+	/* 与下方内容（如果有）保持一定距离 */
+	/* 字体颜色 */
+	overflow: hidden;
+	/* 隐藏超出部分 */
+	text-overflow: ellipsis;
+	/* 超出部分用省略号表示，但这通常用于单行文本 */
+	display: -webkit-box;
+	/* 如果需要多行省略，可以使用webkit的盒子模型 */
+	-webkit-line-clamp: 1;
+	/* 限制显示的行数 */
+	-webkit-box-orient: vertical;
+	/* 垂直方向布局 */
+	word-wrap: break-word;
+	/* 允许长单词换行 */
+}
+
+/* 设置teacher-item-introduce的样式 */
+.teacher-item-introduce {
+	font-size: 11px;
+	/* 字体大小 */
+	color: #000000;
+	/* 字体颜色 */
+	overflow: hidden;
+	/* 隐藏超出部分 */
+	text-overflow: ellipsis;
+	/* 超出部分用省略号表示，但这通常用于单行文本 */
+	display: -webkit-box;
+	/* 如果需要多行省略，可以使用webkit的盒子模型 */
+	-webkit-line-clamp: 3;
+	/* 限制显示的行数 */
+	-webkit-box-orient: vertical;
+	/* 垂直方向布局 */
+	white-space: normal;
+	/* 允许换行 */
+}
+
+/* 设置teacher-item-button的样式 */
+.teacher-item-button {
+	margin-top: auto;
+	/* 使用margin-top: auto将按钮推到容器的底部 */
+	background-color: #ff5a5f;
+	/* 背景色 */
+	color: #fff;
+	/* 字体颜色 */
+	border-radius: 15px;
+	/* 圆角 */
+	text-align: center;
+	/* 文字居中 */
+	line-height: normal;
+	/* 行高，使文字垂直居中 */
+	font-size: 13px;
+	/* 字体大小 */
+	padding: 5px 25px;
+	/* 根据需要添加内边距，以确保文字不会紧贴边框 */
+}
+.teacher-item-tag {
+	position: absolute;
+	/* 使用绝对定位将标签固定在左上角 */
+	top: 0;
+	/* 距离父容器顶部 0px */
+	left: 0;
+	/* 距离父容器左侧 0px */
+	width: auto;
+	/* 根据内容自动调整宽度，或者设置一个具体的宽度 */
+	height: auto;
+	/* 根据内容自动调整高度，或者设置一个具体的高度 */
+	padding: 2px 5px;
+	/* 根据需要添加内边距，以确保文字不会紧贴边框 */
+	text-align: center;
+	/* 文字水平居中 */
+	line-height: normal;
+	/* 行高设置为正常，或者根据需要设置一个具体的值 */
+	background-color: #ff5a5f;
+	/* 背景颜色 */
+	border-radius: 5px;
+	/* 圆角 */
+	color: #FFFFFF;
+	/* 文字颜色 */
+	font-size: 11px;
+	/* 字体大小 */
+}
+.scroll-view-snow-area {
+	overflow-x: auto;
+	/* 允许横向滚动 */
+	overflow-y: hidden;
+	/* 隐藏纵向滚动条 */
+	overflow-x: auto;
+	/* 允许水平滚动 */
+	overflow-y: hidden;
+	/* 禁止垂直滚动 */
+	white-space: nowrap;
+	/* 防止内容换行 */
+	-webkit-overflow-scrolling: touch;
+	/* 在移动设备上启用平滑滚动 */
+	flex-direction: row;
+	/* 水平排列子元素 */
+}
+.snow-area-item {
+	display: inline-flex;
+	/* 使元素作为flex容器，并且在一行内显示 */
+	flex-direction: column;
+	/* 子元素垂直排列 */
+	align-items: center;
+	/* 子元素在交叉轴（水平方向）上居中 */
+	justify-content: center;
+	/* 子元素在主轴（垂直方向）上居中，但这里我们可能需要调整 */
+	width: 300rpx;
+	/* 设定宽度 */
+	height: 180rpx;
+	/* 设定高度，以适应垂直堆叠的内容 */
+	background-color: #eaeaea;
+	/* 浅灰色背景色 */
+	margin-right: 10px;
+	/* 添加右侧外边距 */
+	box-sizing: border-box;
+	/* 包括内边距和边框在内计算元素的总宽度和高度 */
+	padding: 10px;
+	/* 添加内边距，使内容不紧贴边框 */
+	border-radius: 10px;
+	position: relative;
+	/* 必要的，以便定位内部的绝对元素 */
+}
+.snow-area-item-image {
+	width: 300rpx;
+	height: 180rpx;
+	text-align: center;
+	font-size: 36rpx;
+	border-radius: 10px;
+}
+.snow-area-item-image image {
+	width: 300rpx;
+	height: 180rpx;
+	/* 设置圆角的大小 */
+	border-radius: 10px;
+}
+.snow-area-item-name {
+	position: absolute;
+	/* 将文字位置放在容器的垂直中间 */
+	top: 80%;
+	left: 5%;
+	/* 使文字水平垂直居中 */
+	-webkit-transform: translate(0%, -50%);
+	        transform: translate(0%, -50%);
+	/* 文字颜色 */
+	color: #FFFFFF;
+	/* 确保文字在图片上方 */
+	z-index: 2;
+	/* 文字大小 */
+	font-size: 17px;
+	text-shadow:
+		1px 1px 2px rgba(0, 0, 0, 0.8),
+		-1px -1px 2px rgba(156, 156, 156, 0.8),
+		5px 0 10px rgba(64, 128, 180, 0.8),
+		-5px 0 10px rgba(64, 128, 180, 0.8);
+}
+
+/* 主功能区图标样式开始 */
+.icon-flex-continer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 10px;
+}
+.icon-flex-item {
+	display: flex;
+	/* 内部的Flexbox容器，但这里主要用于垂直对齐（尽管文字默认在下方） */
+	flex-direction: column;
+	/* 垂直方向排列子元素 */
+	align-items: center;
+	/* 子元素水平居中对齐（对于图标有用，但文字会自然在下方） */
+}
+.icon-flex-item-image {
+	width: 48px;
+	/* 设置图标的宽度 */
+	height: auto;
+	/* 保持图标的宽高比 */
+	margin-bottom: 8px;
+	/* 图标和文字之间的间距 */
+}
+.icon-flex-item-title {
+	color: #333;
+	/* 设置文字颜色 */
+	font-size: 16px;
+	/* 设置文字大小 */
+	text-align: center;
+	/* 文字居中对齐，或者根据需要设置为left/right */
+	font-weight: bold;
+}
+.copyright {
+	margin: 20rpx auto;
+	width: 80%;
+	height: 60rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #9E9E9E;
+	font-size: 26rpx;
+}
+

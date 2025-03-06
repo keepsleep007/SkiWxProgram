@@ -1,0 +1,48 @@
+
+.container {
+	overflow: hidden;
+}
+.list-item {
+	/* 使用Flexbox布局 */
+	display: flex;
+	/* 使子元素在垂直方向上居中对齐 */
+	align-items: center;
+	/* 移除相邻元素之间的边框间隙 */
+	margin: -1px;
+	/* 添加浅灰色背景 */
+	background-color: #F5F7FA;
+	/* 添加黑色边框 */
+	border: 1px solid #EBEEF5;
+}
+.item-title {
+	/* 字体加粗 */
+	font-weight: bold;
+	/* 添加内边距 */
+	padding: 5px;
+	/* 防止标题文本换行 */
+	white-space: nowrap;
+}
+.item-content {
+	/* 移除相邻元素之间的边框间隙 */
+	margin-left: -1px;
+	/* 添加黑色边框 */
+	border-left: 1px solid #EBEEF5;
+	/* 添加浅灰色背景 */
+	background-color: #ffffff;
+	/* 添加内边距 */
+	padding: 5px;
+	/* 让这个元素填充这一行剩余的空间 */
+	flex-grow: 1;
+	min-height: 22px;
+}
+.btn-view {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.button {
+	margin-left: 15px;
+	margin-right: 15px;
+	width: 100%;
+}
+

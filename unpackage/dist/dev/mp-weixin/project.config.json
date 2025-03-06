@@ -1,0 +1,39 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": false,
+    "postcss": false,
+    "minified": true,
+    "newFeature": true,
+    "bigPackageSizeSupport": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "compileType": "miniprogram",
+  "libVersion": "3.5.6",
+  "appid": "wx0d41379fea091b64",
+  "projectname": "SkiWxProgram",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/club/club",
+          "pathName": "pages/club/club",
+          "query": ""
+        }
+      ]
+    }
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

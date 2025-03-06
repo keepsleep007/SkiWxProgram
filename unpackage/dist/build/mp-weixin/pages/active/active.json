@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "活动",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "h-m-filter-dropdown": "/uni_modules/HM-filterDropdown/components/HM-filterDropdown/HM-filterDropdown",
+    "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "教练",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "uni-datetime-picker": "/uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker",
+    "teacher_fab_button": "/pages/teacher/teacher-fab-button"
+  }
+}

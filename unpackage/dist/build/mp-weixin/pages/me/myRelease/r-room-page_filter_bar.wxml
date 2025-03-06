@@ -1,0 +1,1 @@
+<view class="container data-v-433bcca2"><view class="bg-wrapper data-v-433bcca2"><es-filter-bar vue-id="b445ed42-1" list="{{list}}" btnBg="#ffffff" data-ref="buttonPage" data-event-opts="{{[['^change',[['onChange']]],['^close',[['onClose']]]]}}" bind:change="__e" bind:close="__e" class="data-v-433bcca2 vue-ref" bind:__l="__l"></es-filter-bar></view></view>

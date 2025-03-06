@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "es-filter-select": "/components/es-filter-select/es-filter-select",
+    "uni-calendar": "/uni_modules/uni-calendar/components/uni-calendar/uni-calendar",
+    "es-filter-area": "/components/es-filter-area/es-filter-area"
+  }
+}

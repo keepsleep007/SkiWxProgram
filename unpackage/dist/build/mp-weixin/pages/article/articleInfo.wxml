@@ -1,0 +1,1 @@
+<view class="container"><block wx:if="{{infoRichTextFlag}}"><view class="detail-desc"><view class="title">{{''+data.articleTitle+''}}</view><view class="subtitle">{{''+data.articleSubtitles+''}}</view><rich-text nodes="{{data.infoRichText}}"></rich-text></view></block></view>

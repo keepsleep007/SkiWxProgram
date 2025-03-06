@@ -1,0 +1,340 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+page {
+  background-color: #efeff4;
+}
+.container {
+  padding: 5px;
+}
+.card {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card-upper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+}
+.info {
+  align-items: center;
+  margin-left: 10px;
+}
+.nickname {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+.gender-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+.tag-background {
+  background-color: #f0f0f0;
+  /* padding: 5px; */
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.right-tag {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #ffdedf;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 12px;
+  text-align: center;
+  /* 文字居中 */
+  line-height: normal;
+  /* 行高，使文字垂直居中 */
+}
+.video-tag {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  background-color: #ffdedf;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 12px;
+  text-align: center;
+  /* 文字居中 */
+  line-height: normal;
+  /* 行高，使文字垂直居中 */
+}
+.card-lower {
+  display: flex;
+  flex-direction: column;
+}
+.section {
+  margin-bottom: 10px;
+}
+.section-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.section-text {
+  font-size: 14px;
+  color: #333;
+}
+.tag {
+  background-color: #f0f0f0;
+  padding: 3px 5px;
+  border-radius: 3px;
+  margin-right: 5px;
+  display: inline-block;
+}
+.swiper-container {
+  width: 100%;
+  height: 120rpx;
+  white-space: nowrap;
+}
+.sub-card {
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  height: 90%;
+  background-color: #ffdedf;
+}
+.sub-card-title {
+  position: absolute;
+  font-size: 14px;
+  margin-bottom: 5px;
+  left: 20rpx;
+}
+.sub-card-price {
+  position: absolute;
+  font-size: 14px;
+  color: #ff5a5f;
+  margin-top: 40rpx;
+  left: 20rpx;
+}
+.sub-card-button {
+  position: absolute;
+  left: 130rpx;
+  top: 60rpx;
+  font-size: 20rpx;
+  background-color: #ff5a5f;
+  /* 背景色 */
+  color: #fff;
+  /* 字体颜色 */
+  border-radius: 10px;
+  /* 圆角 */
+  text-align: center;
+  /* 文字居中 */
+  line-height: normal;
+  /* 行高，使文字垂直居中 */
+  padding: 3px 5px;
+  /* 根据需要添加内边距，以确保文字不会紧贴边框 */
+}
+._hr {
+  border: 0;
+  height: 1px;
+  background: #8b8b8b;
+  margin: 10px;
+  /* 控制分割线上下的间距 */
+}
+/*  弹出层 */
+.popup {
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+}
+.popup.show {
+  display: block;
+}
+.popup.show .mask {
+  -webkit-animation: showPopup 0.2s linear both;
+          animation: showPopup 0.2s linear both;
+}
+.popup.show .layer {
+  -webkit-animation: showLayer 0.2s linear both;
+          animation: showLayer 0.2s linear both;
+}
+.popup.hide .mask {
+  -webkit-animation: hidePopup 0.2s linear both;
+          animation: hidePopup 0.2s linear both;
+}
+.popup.hide .layer {
+  -webkit-animation: hideLayer 0.2s linear both;
+          animation: hideLayer 0.2s linear both;
+}
+.popup.none {
+  display: none;
+}
+.popup .mask {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.popup .layer {
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  width: 100%;
+  min-height: 50vh;
+  border-radius: 10rpx 10rpx 0 0;
+  background-color: #fff;
+}
+.popup .layer .closeBtn {
+  display: flex;
+  /* 启用Flexbox布局 */
+  justify-content: flex-end;
+  /* 将子元素对齐到右侧 */
+  margin-top: 10rpx;
+  margin-right: 20rpx;
+}
+.popup .layer .title-left {
+  margin-top: 20rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+}
+.popup .layer .datatime {
+  margin-top: 20rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+}
+.popup .layer .subButton {
+  margin-top: 20rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  margin-bottom: 20rpx;
+  background-color: #ff5a5f;
+  /* 背景色 */
+  color: #fff;
+  /* 字体颜色 */
+  border-radius: 15px;
+  /* 圆角 */
+  text-align: center;
+  /* 文字居中 */
+  line-height: 35px;
+  /* 行高，使文字垂直居中 */
+  font-size: 13px;
+  /* 字体大小 */
+  height: 35px;
+}
+@-webkit-keyframes showPopup {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+@keyframes showPopup {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+@-webkit-keyframes hidePopup {
+0% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+}
+}
+@keyframes hidePopup {
+0% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+}
+}
+@-webkit-keyframes showLayer {
+0% {
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%);
+}
+100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+}
+}
+@keyframes showLayer {
+0% {
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%);
+}
+100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+}
+}
+@-webkit-keyframes hideLayer {
+0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+100% {
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%);
+}
+}
+@keyframes hideLayer {
+0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+100% {
+    -webkit-transform: translateY(120%);
+            transform: translateY(120%);
+}
+}
+

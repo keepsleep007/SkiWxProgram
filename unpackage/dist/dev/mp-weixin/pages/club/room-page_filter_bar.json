@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "es-filter-bar": "/components/es-filter-bar/es-filter-bar"
+  }
+}

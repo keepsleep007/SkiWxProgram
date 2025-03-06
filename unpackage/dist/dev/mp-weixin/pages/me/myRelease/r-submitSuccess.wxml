@@ -1,0 +1,1 @@
+<view class="content"><text class="success-icon yticon icon-xuanzhong2"></text><text class="tit">发布成功</text><view class="btn-view"><button class="button" type="primary" data-event-opts="{{[['tap',[['toPage']]]]}}" bindtap="__e">返回</button></view></view>
