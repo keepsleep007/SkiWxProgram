@@ -6,7 +6,7 @@
 
 
 ---
-<img src="https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/qrcode.jpg" alt="示例" />
+<img src="https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/qrcode.jpg" alt="示例" width="430" height="490" />
 <img src="https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/1.jpg" alt="示例" width="400" height="890" />
 <img src="https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/2.jpg" alt="示例" width="400" height="890" />
 <img src="https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/3.jpg" alt="示例" width="400" height="890" />
