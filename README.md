@@ -12,7 +12,6 @@
 <img src="https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/4.jpg" alt="示例" width="480" height="1068" />
 <img src="https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/5.jpg" alt="示例" width="480" height="1068" />
 <img src="https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/6.jpg" alt="示例" width="480" height="1068" />
-<img src="https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/6.jpg" alt="示例" width="480" height="1068" />
 <img src="https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/7.jpg" alt="示例" width="480" height="1068" />
 <img src="https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/8.jpg" alt="示例" width="480" height="1068" />
 <img src="https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/9.jpg" alt="示例" width="480" height="1068" />
