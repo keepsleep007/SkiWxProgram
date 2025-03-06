@@ -6,7 +6,9 @@
 
 ---
 功能截图
-![示例](https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/1.jpg "示例") 
+<img src="https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/1.jpg" alt="示例" width="300" height="200" />
+
+
 ![示例](https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/2.jpg "示例") 
 ![示例](https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/3.jpg "示例") 
 ![示例](https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/4.jpg "示例") 
