@@ -7,4 +7,15 @@
 ---
 功能截图
 ![示例](https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/1.jpg "示例") 
-
+![示例](https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/2.jpg "示例") 
+![示例](https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/3.jpg "示例") 
+![示例](https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/4.jpg "示例") 
+![示例](https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/5.jpg "示例") 
+![示例](https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/6.jpg "示例") 
+![示例](https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/6.jpg "示例") 
+![示例](https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/7.jpg "示例") 
+![示例](https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/8.jpg "示例") 
+![示例](https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/9.jpg "示例") 
+![示例](https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/10.jpg "示例") 
+![示例](https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/11.jpg "示例") 
+![示例](https://github.com/keepsleep007/SkiWxProgram/blob/master/screenshot/12.jpg "示例") 
